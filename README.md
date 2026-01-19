@@ -11,30 +11,30 @@ A lightweight, cross-platform command-line file explorer built with **Python**. 
 - **Search Functionality**: Robust search tool with wildcard support (`*pattern*`) and filtering by type.
 - **Safety First**: Includes confirmation prompts for destructive actions (deletions, moves).
 
-📋 **Requirements**
+## **Requirements**
 
 - **Python 3.x**
 - **Standard Libraries Only**: No external dependencies or pip install required. The script uses `pathlib`, `shlex`, `os`, `shutil`, `datetime`, and `platform`.
 
-🚀 **Installation & Usage**
+## **Installation & Usage**
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/DYNOarman/python-file-manager.git
 ```
 
 ### Navigate to the Directory
 ```bash
-cd YOUR_REPO_NAME
+cd python-file-manager
 ```
 
 ### Run the Script
 ```bash
-python File_Manager.py
+python main.py
 ```
 
 
-🎮 **Command Reference**
+## **Command Reference**
 
 Once the program is running, you can use the following commands at the >> prompt:
 
@@ -53,14 +53,14 @@ Once the program is running, you can use the following commands at the >> prompt
 | **help**    | help [command]     | Show the help menu or specific command help. |
 | **exit**    | exit               | Close the program. |
 
-**Special Paths**
+### **Special Paths**
 
 - `~` : Home Directory
 - `*` : Root/Spawn Directory
 - `.` : Current Directory
 - `..`: Parent Directory
 
-🔍 **Search (sh) Usage**
+### **Search (sh) Usage**
 
 The search command is powerful. You can use wildcards and flags:
 
@@ -79,7 +79,7 @@ The search command is powerful. You can use wildcards and flags:
 >> sh -f *.txt
 ```
 
-📸 **Usage Examples**
+## **Usage Examples**
 
 1. Listing files with details:
 
@@ -103,7 +103,7 @@ The search command is powerful. You can use wildcards and flags:
 >> sh -f *.py
 ```
 
-🤝 **Contributing**
+## **Contributing**
 
 Contributions are welcome! If you have suggestions for new features (like file content reading or zipping), feel free to fork the repository and submit a pull request.
 
@@ -114,8 +114,8 @@ Contributions are welcome! If you have suggestions for new features (like file c
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-📄 **License**
+## **License**
 
 This project is open source and available under the **MIT License**.
 
-Created by [Your Name]
+Created by DYNOarman
