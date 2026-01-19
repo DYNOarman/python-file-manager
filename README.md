@@ -4,39 +4,34 @@ A lightweight, cross-platform command-line file explorer built with **Python**. 
 
 ## **Features**
 
-**Cross-Platform**: Automatically detects OS (**Windows**, **Linux**, **macOS**) and handles drive paths accordingly.
-
-**Color-Coded Interface**: Visual feedback for directories, files, errors, and warnings (**Blue**, **Green**, **Red**, **Yellow**).
-
-**Standard Operations**: Create, remove, copy, move, and rename files and directories.
-
-**Smart Navigation**: Supports relative paths (., ..), home directory (~), and drive root (*).
-
-**Search Functionality**: Robust search tool with wildcard support (*pattern*) and filtering by type.
-
-**Safety First**: Includes confirmation prompts for destructive actions (deletions, moves).
+- **Cross-Platform**: Automatically detects OS (**Windows**, **Linux**, **macOS**) and handles drive paths accordingly.
+- **Color-Coded Interface**: Visual feedback for directories, files, errors, and warnings (**Blue**, **Green**, **Red**, **Yellow**).
+- **Standard Operations**: Create, remove, copy, move, and rename files and directories.
+- **Smart Navigation**: Supports relative paths (`.`, `..`), home directory (`~`), and drive root (`*`).
+- **Search Functionality**: Robust search tool with wildcard support (`*pattern*`) and filtering by type.
+- **Safety First**: Includes confirmation prompts for destructive actions (deletions, moves).
 
 📋 **Requirements**
 
-**Python 3.x**
-
-**Standard Libraries Only**: No external dependencies or pip install required. The script uses **pathlib**, **shlex**, **os**, **shutil**, **datetime**, and **platform**.
+- **Python 3.x**
+- **Standard Libraries Only**: No external dependencies or pip install required. The script uses `pathlib`, `shlex`, `os`, `shutil`, `datetime`, and `platform`.
 
 🚀 **Installation & Usage**
 
-Clone the repository:
+### Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+```
 
-**[git clone](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)**
-
-
-Navigate to the directory:
-
+### Navigate to the Directory
+```bash
 cd YOUR_REPO_NAME
+```
 
-
-Run the script:
-
+### Run the Script
+```bash
 python File_Manager.py
+```
 
 
 🎮 **Command Reference**
@@ -60,30 +55,26 @@ Once the program is running, you can use the following commands at the >> prompt
 
 **Special Paths**
 
-~ : Home Directory
-
-* : Root/Spawn Directory
-
-. : Current Directory
-
-..: Parent Directory
+- `~` : Home Directory
+- `*` : Root/Spawn Directory
+- `.` : Current Directory
+- `..`: Parent Directory
 
 🔍 **Search (sh) Usage**
 
 The search command is powerful. You can use wildcards and flags:
 
-**Flags**: -f (Files only), -d (Directories only), -b (Search from base dir).
+### Flags
+- `-f` : Files only
+- `-d` : Directories only
+- `-b` : Search from base dir
 
-**Patterns**:
+### Patterns
+- `*.py` : Ends with `.py`
+- `test*` : Starts with `test`
+- `*data*` : Contains `data`
 
-*.py (Ends with .py)
-
-test* (Starts with test)
-
-*data* (Contains data)
-
-**Example**:
-
+### Example
 ```bash
 >> sh -f *.txt
 ```
@@ -116,15 +107,12 @@ test* (Starts with test)
 
 Contributions are welcome! If you have suggestions for new features (like file content reading or zipping), feel free to fork the repository and submit a pull request.
 
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+### Steps to Contribute
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 📄 **License**
 
